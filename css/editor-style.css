@@ -1,0 +1,78 @@
+
+/* general */
+a {
+ 	color: #096; text-decoration: none; outline: none;
+	}
+a:hover,
+a:focus {
+	text-decoration: none; outline: none;
+	}
+a:hover {
+ 	color: #5BCF80
+	}
+iframe {
+ 	border: none
+	}
+
+/* headings and paragraphs  */
+h1 {
+ 	font-size: 1.80em; margin: 0.8em 0 0.4em 0; line-height: 1.2;
+	}
+h2 {
+ 	font-size: 1.20em; margin: 1.0em 0 0.6em 0; line-height: 1.3; 
+	}
+h3 {
+ 	font-size: 1.00em; margin: 1.0em 0 .6em 0; font-weight: 700;
+	}
+h4 {
+ 	font-size: 0.9em; margin: 2.0em 0 .6em 0;
+	}
+h5 {
+ 	font-size: 0.9em; margin: 1.0em 0 .6em 0;
+	}
+h6 {
+ 	font-size: 0.9em; margin: 1.0em 0 .6em 0;
+	}
+	
+/* blockquote  */
+blockquote {
+ 	position: relative; margin: 1.6em 0; padding: 0 1.4em; font-size: 1.4em; line-height: 1.5; font-weight: bold;
+	}
+blockquote p {
+	line-height: 100%;
+	}
+blockquote cite {
+ 	display: block; font-size: 13px; padding-right: 1em; margin-top: 1em; font-style: normal; font-weight: 400; color: #ccc; letter-spacing: 0.07em;
+	}
+hr {
+ 	padding: .6em 0 1em 0; margin-bottom: 3em; outline: 0; border-width: 0 0 2px 0; border-style: solid; border-color: #eee;
+	}
+
+
+
+
+/* TABLETS */
+@media screen and (min-width: 768px) { 
+	
+    /* TYPOGRAPHY */
+	h1 { 
+		font-size: 42px;
+		}
+    h2 {
+        font-size: 28px;
+        }
+    h3 {
+        font-size: 18px;
+        }
+    h4 {
+        font-size: 1.0em;
+        }
+		
+    /* blockquote  */
+    blockquote {
+        font-size: 1.8em;
+        }
+    blockquote:before {
+        font-size: 1.0em;
+        }	
+}

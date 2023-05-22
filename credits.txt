@@ -1,0 +1,86 @@
+
+
+
+
+
+CREDITS
+- thanks to the authors of this beautiful resources
+
+
+CSS3 Marquee 
+https://codepen.io/jonathansampson/pen/qyxdB
+
+JS Detect iOS
+https://codepen.io/niggi/pen/DtIfy
+
+Home Icon
+https://www.flaticon.com/packs/design-thinking
+https://www.flaticon.com/family/meticulous/lineal
+
+Menu Hover Effect
+https://tympanus.net/Development/MenuHoverEffects/dustu.html
+
+Page Reveal Effect Inspiration
+https://tympanus.net/Tutorials/PageRevealEffects/
+https://tympanus.net/Development/BlockRevealers/form.html
+
+Close Icon
+https://codepen.io/rsbear/pen/ZpXJVp
+
+Loader #6
+https://codepen.io/Paolo-Duzioni/pen/ZoRabJ
+
+Home Image Duotone Effect
+https://duotone.shapefactory.co/?f=ff7a6f&t=1c1c61&q=man
+
+Play Music Animation
+https://codepen.io/Wujek_Greg/pen/EpJwaj
+
+Silence sound
+http://www.minidisc.org/charman/downloads.html
+
+Chrome Audio Autoplay Fix with iframe
+https://stackoverflow.com/questions/50490304/how-to-make-audio-autoplay-on-chrome
+
+Youtube Music - Mood : Funky
+https://www.youtube.com/audiolibrary/music
+Music1 : Ticker
+Music2 : Toe Jam
+Music 3 : Digital Solitude
+
+Multiline Link Hover Animation
+https://codepen.io/christiancroser/pen/xqrLBm
+
+Fullscreen Toggle code
+https://codepen.io/jacobgDK/pen/azOXdY
+
+Online Audio Converter for reducing file sizes of bg music => 128kbps 
+https://online-audio-converter.com/tr/
+
+
+PORTFOLIO IMAGES
+https://www.behance.net/gallery/57704083/Portraits-06
+
+
+Sound Effects
+https://freesound.org/people/qubodup/sounds/60000/
+https://freesound.org/people/domingus/sounds/54001/
+
+
+Resume Icons
+https://www.iconfinder.com/iconsets/education-free
+
+Contact Icons
+http://www.streamlineicons.com/free-icons.html
+
+Single Page Menu Icons
+https://feathericons.com/
+
+nProgress
+http://ricostacruz.com/nprogress/
+
+PL Intro Animation
+https://codepen.io/karlovidek/full/JvrZBG
+
+Isotope
+http://isotope.metafizzy.co/

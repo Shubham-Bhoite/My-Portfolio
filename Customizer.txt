@@ -1,0 +1,291 @@
+
+
+ikonik CUSTOMIZER OPTIONS
+
+ - This file is preapared for WordPress Customizer 
+ but you can use the css codes below to customize your template with extra css too ;)
+
+
+
+
+--------------------- Customizer > General  
+
+
+	- Sound Effects (dropdown on/off)
+		default		: ON
+		class		: add class to html tag: "sound-effects"
+		
+	- Background Music (file:upload : mp3)
+		remove markup on index.html when no mp3 is uploaded
+		
+	- Background Music Autoplay
+		default		: off
+		class 		: <div id="play-music" class="play-music autoplay"> *add autoplay class when ON
+
+	- Click Ripple Effect (dropdown on/off) 
+		default		: ON
+		html tag data attribute: data-click-ripple-animation="yes"
+		
+	- Mobile Zoom	: (on/off)
+	
+	- Ajax 			: (on/off)
+
+
+------------------------------------------	
+	
+	
+
+
+
+
+
+--------------------- Customizer > Typography
+
+
+	- Body Font (dropdown Google Fonts List)
+		default 	: Jost*
+		css			: see below	
+	
+body,
+input,
+textarea,
+select,
+input[type=file] {
+	font-family: 'Jost*';
+	}
+	
+
+	- Body Font Size (input:number - min:10 - max: 30 - steps:1)
+		default		: 18px
+		css			: @media screen and (min-width: 992px) { body { font-size: 18px; } }				
+
+	- Headings Font (dropdown Google Fonts List)
+		default 	: Jost*
+		css			: 
+h1,
+.entry-title {
+	font-family: 'Jost*', sans-serif;
+	}
+	
+	- Headings Font Size (input:number - min:10 - max: 100 - steps:2)
+		default 	: 62
+		css			: @media screen and (min-width: 991px) { h1 { font-size: 62px; } }
+	
+	- Headings Font Weight (dropdown : 100-900)
+		default 	: 400
+		css			: h1, .entry-title { font-weight: 400; }
+
+
+	- Sub Headings Font (dropdown Google Fonts List)
+		default 	: Jost*
+		css			: see below
+	
+h2, h3, h4, h5, h6, .filters, .nav-menu, .card-nav, th, dt, .button, .catlinks a, input[type=submit], button, label, .tab-titles, .more-link, blockquote {
+ 	font-family: 'Jost*', sans-serif;
+	}
+	
+
+	- Buttons Font Size (input:number - min:9 - max: 20 - steps:1)
+		default 	: 11
+		css			: input[type=submit], input[type=button], button, .button, .more-link { font-size: 11px; }
+	
+	- Buttons Font Weight (dropdown : 100-900)
+		default 	: 700
+		css			: input[type=submit], input[type=button], button, .button, .more-link { font-weight: 700; }
+	
+	- Buttons Letter Spacing (input:range - min:0 - max: 10 - steps:1)
+		default 	: 1
+		css			: input[type=submit], input[type=button], button, .button, .more-link { letter-spacing: 1px; }
+		
+		
+	- Blog List Title Font Size (input:number - min:10 - max: 120 - steps:2)
+		default 	: 34
+		css			: @media screen and (min-width: 991px) { .blog-regular .post .entry-title { font-size: 34px; } }
+	
+	
+	- Font Character Sets
+
+
+------------------------------------------	
+	
+	
+	
+	
+	
+	
+
+--------------------- Customizer > Colors
+
+
+	- Body Text Color (input:colorpicker)
+		default 	: #605561
+		css			: body { color: #605561; }
+
+	- Headings Text Color (input:colorpicker)
+		default 	: #323232
+		css			: h1, h2, h3, h4, h5, h6, blockquote { color: #323232; }
+
+	- Link Color (input:colorpicker)
+		default 	: #1851f1
+		css			: a { color: #1851f1; }
+
+
+	- Link Hover Color (input:colorpicker)
+		default 	: #2c00ff
+		css			: see below
+
+a:hover {
+ 	color: #2c00ff;
+	}
+.cool-link {
+	background-image: linear-gradient(transparent 88%, #2c00ff 12%);
+	}	
+	
+
+	- Primary Color (input:colorpicker)	
+		default 	: #1851f1
+		css			: see below
+	
+/* PRIMARY COLOR : #1851f1 */
+.button:after,
+input[type=submit]:hover, 
+input[type=button]:hover, 
+.more-link:after,
+button:hover, 
+.pagination a:hover,
+.navigation a:hover,
+.event:nth-of-type(2):after,
+.elementor-widget:nth-of-type(2) .event:after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar,
+.media-date,
+.cool-link:after,
+.home-menu .item-name::before,
+.home-menu .item-name::after,
+.overlay-2,
+.mfp-bg  {
+ 	background-color: #1851f1;
+	}
+*::-webkit-scrollbar-thumb {
+	background-color: #1851f1;
+	}
+.bypostauthor > article,
+.event h3,
+input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
+textarea:focus, 
+input:focus, 
+select:focus,
+.tabs .tab-titles li a.active,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a {
+	border-color: #1851f1
+	}
+.event h3,
+.entry-title a:hover,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a,
+.filters .current .cool-link {
+	color: #1851f1
+	}
+#nprogress .spinner-icon {
+  	border-top-color: #1851f1; border-left-color: #1851f1;
+	}
+	
+	
+
+------------------------------------------
+
+
+
+
+
+		
+
+
+
+--------------------- Customizer > Home 
+		
+	- Home Cover Image (img:upload) resize: width=1920px
+	
+	- Home Logo (img:upload)
+	
+	- Home Bg Icon (img:upload)
+	
+	- Home Marquee Text (textarea)
+	
+	- Home Logo Left Text (input:text)
+	
+	- Home Logo Right Text (input:text)
+  
+	- Home Title Font (dropdown Google Fonts List) 
+		default 	: Jost*
+		css			: 
+
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-family: 'Jost*', sans-serif;
+	}
+
+	- Home Title Font Weight (dropdown: 100-900)
+		default 	: 500
+		css			: 
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-weight: 500;
+	}
+
+	- Home Title BG Color (input:colorpicker)
+		default 	: #030303
+		css			: .home-text-container { background-color: #030303; }
+
+
+
+	- Home Menu Font (dropdown Google Fonts List)
+		default 	: Anton
+		css			: .home-menu { font-family: 'Anton', sans-serif; }
+
+	- Home Menu Font Weight (dropdown: 100-900)
+		default 	: 400
+		css			: .home-menu .item-name { font-weight: 400; }
+
+
+	- Home Image Mask Color  (input:colorpicker)
+		default	    : #000
+		css			: .home-bg:after, .header:before { background: #000; }
+		
+	- Home Image Mask Opacity  (input:range - min:0 - max: 1 - steps:0.1)
+		default	    : 0
+		css			: .home-bg:after, .header:before { opacity: 0.X; }
+
+
+
+	- Grid Title Font Size px (input:number - min:10 - max: 30 - steps:1)
+		default 	: 19
+		css			: @media screen and (min-width: 768px) { .media-grid h3 { font-size: 19px; } }
+	
+	- Grid Title Font Weight (dropdown : 100-900)
+		default 	: 500
+		css			: .media-grid h3 { font-weight: 500; }
+	
+	- Grid Title Text Transform (dropdown : None / Uppercase)
+		default 	: None
+		none-css	: .media-grid h3 { text-transform: none; }
+		uppercase-css	: .media-grid h3 { text-transform: uppercase; }
+		
+	- Grid Title Letter Spacing (input:range - min:0 - max: 10 - steps:1)
+		default 	: 0
+		css			: .media-grid h3 { letter-spacing: 0px; }	
+	
+		
+------------------------------------------

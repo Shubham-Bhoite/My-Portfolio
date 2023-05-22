@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+
+
+
+/* Body Text Color */
+body { 
+	color: #555; 
+	}
+
+/* Link Color */
+a { 
+	color: #e01f34; 
+	}
+
+/* Link Hover Color */
+a:hover {
+ 	color: #e01f34
+	}
+.cool-link {
+	background-image: linear-gradient(transparent 88%, #e01f34 12%);
+	}	
+
+
+/* Headings Text Color */
+h1, h2, h3, h4, h5, h6, blockquote {
+    color: #222;
+	}
+	
+
+/* Home Title Bg Color */
+.home-text-container {
+    background: #e01f34;
+	}
+
+/* Home Title Font Weight */
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-weight: 300;
+	}
+
+/* HOME MENU */
+.home-menu {
+	font-family: 'Major Mono Display', monospace; 
+	}
+
+/* Heading 1 Font Weight */
+h1, .entry-title { 
+	font-weight: 700; 
+	}
+
+
+/* PRIMARY COLOR */
+.button:after,
+input[type=submit]:hover, 
+input[type=button]:hover, 
+.more-link:after,
+button:hover, 
+.pagination a:hover,
+.navigation a:hover,
+.event:nth-of-type(2):after,
+.elementor-widget:nth-of-type(2) .event:after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar,
+.media-date,
+.home-menu .item-name::before,
+.home-menu .item-name::after,
+.overlay-2,
+.mfp-bg  {
+ 	background-color: #e01f34;
+	}
+*::-webkit-scrollbar-thumb {
+	background-color: #e01f34;
+	}
+.bypostauthor > article,
+.event h3,
+input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
+textarea:focus, 
+input:focus, 
+select:focus,
+.tabs .tab-titles li a.active,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a {
+	border-color: #e01f34
+	}
+.event h3,
+.entry-title a:hover,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a,
+.filters .current .cool-link {
+	color: #e01f34
+	}
+#nprogress .spinner-icon {
+  	border-top-color: #e01f34; border-left-color: #e01f34;
+	}
+
+
+
+
+
+
+
+
+
+

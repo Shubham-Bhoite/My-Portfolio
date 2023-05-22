@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+
+/* Home Title Bg Color */
+.home-text-container {
+    background: #a97d67;
+	}
+		
+/* Home Image Mask Opacity */
+.home-bg:after, .header:before { 
+	opacity: 0.3; 
+	}
+
+/* Body Text Color */
+body { 
+	color: #927d72; 
+	}
+
+/* Link Color */
+a { 
+	color: #a97d67; 
+	}
+
+/* Link Hover Color */
+a:hover {
+ 	color: #a97d67
+	}
+.cool-link {
+	background-image: linear-gradient(transparent 88%, #a97d67 12%);
+	}	
+
+/* HEADINGS FONT */
+h1,
+.entry-title { 
+	font-family: 'Playfair Display', serif; 
+	}
+
+/* Headings Text Color */
+h1, h2, h3, h4, h5, h6, blockquote {
+    color: #4e4c48;
+	}
+
+
+/* HOME TITLE */
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-family: 'Playfair Display', serif;
+	}
+
+/* HOME MENU */
+.home-menu {
+	font-family: 'Jost*', sans-serif; 
+	}
+
+/* Home Menu Font Weight */
+.home-menu .item-name { 
+	font-weight: 700; 
+	}
+
+/* Heading 1 Font Weight */
+h1, .entry-title { 
+	font-weight: 400; 
+	}
+
+
+/* PRIMARY COLOR : #a97d67 */
+.button:after,
+input[type=submit]:hover, 
+input[type=button]:hover, 
+.more-link:after,
+button:hover, 
+.pagination a:hover,
+.navigation a:hover,
+.event:nth-of-type(2):after,
+.elementor-widget:nth-of-type(2) .event:after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar,
+.media-date,
+.home-menu .item-name::before,
+.home-menu .item-name::after,
+.overlay-2,
+.mfp-bg  {
+ 	background-color: #a97d67;
+	}
+*::-webkit-scrollbar-thumb {
+	background-color: #a97d67;
+	}
+.bypostauthor > article,
+.event h3,
+input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
+textarea:focus, 
+input:focus, 
+select:focus,
+.tabs .tab-titles li a.active,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a {
+	border-color: #a97d67
+	}
+.event h3,
+.entry-title a:hover,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a,
+.filters .current .cool-link {
+	color: #a97d67
+	}
+#nprogress .spinner-icon {
+  	border-top-color: #a97d67; border-left-color: #a97d67;
+	}

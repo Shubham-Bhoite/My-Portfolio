@@ -1,0 +1,13 @@
+
+CHANGE LOG
+---------------------------------
+
+
+
+v1.0.1 - 10 April 2020
+- fixed portfolio/blog masonry layout issue
+
+---
+
+v1.0 - 25 March 2020
+- initial release
